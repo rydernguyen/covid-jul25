@@ -1,6 +1,15 @@
-# covid-jul25 - Create a ETL data pipeline on Google Cloud Platform
+# Create a ETL data pipeline on Google Cloud Platform
 
 Follow the steps laid out in the <a href='#' target='_blank'>Medium story</a> & clone the repository.
+
+# Useful BigQuery python commands
+## Write to a BigQuery table
+pd.to_gbq('table_name',if_exists='param')
+## Read from a BigQuery table using legacy syntax
+pd.read_gbq(sql, dialect='legacy')
+## Run queries on BigQuery directly from Jupyter 
+query_job = bigquery_client.query("""[SQL CODE]""") <br>
+results = query_job.result()
 
 # Useful Google Shell Command
 ## Set up working environment

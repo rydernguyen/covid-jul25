@@ -1,5 +1,4 @@
-# covid-jul25
-Create a ETL data pipeline on Google Cloud Platform
+# covid-jul25 - Create a ETL data pipeline on Google Cloud Platform
 
 Follow the steps laid out in the <a href='#' target='_blank'>Medium story</a> & clone the repository.
 

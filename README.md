@@ -1,6 +1,6 @@
 # Create a ETL data pipeline on Google Cloud Platform
 
-Follow the steps laid out in the <a href='#' target='_blank'>Medium story</a> & clone the repository.
+Follow the steps laid out in the <a href='https://medium.com/@rydernguyen/how-to-set-up-a-covid-19-workflow-and-dashboard-using-the-google-cloud-platform-b0e5165333e5?sk=6266ffdb056466e73a7bc38a23748722' target='_blank'>Medium story</a> & clone the repository.
 
 # Useful BigQuery python commands
 ## Write to a BigQuery table

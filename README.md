@@ -57,7 +57,7 @@ Follow the steps laid out in the <a href='https://medium.com/@rydernguyen/how-to
   gcloud dataproc workflow-templates list --region $REGION
 
 ## Instantiate & time the workflow
-  export REGION=us-west3 <br>
-  export TEMPLATE_ID=daily_update_template <br>
+  export REGION=us-east4 <br>
+  export TEMPLATE_ID=daily_update <br>
   time gcloud dataproc workflow-templates instantiate \ <br>
     $TEMPLATE_ID --region $REGION #--async
